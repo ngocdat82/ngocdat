@@ -1,4 +1,4 @@
-Github là gì?
+## Github là gì?
 
 GitHub là một hệ thống quản lý dự án và phiên bản code, GitHub được coi giống như một mạng xã hội dành riêng cho các lập trình viên. Với GitHub, các lập trình viên có thể clone lại mã nguồn từ một repository. Nó cũng là một dịch vụ máy chủ repository giúp lưu trữ code và mỗi người có thể tạo tài khoản trên đó để tạo ra các kho chứa của riêng mình để làm việc.
 
