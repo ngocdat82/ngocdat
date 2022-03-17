@@ -42,3 +42,37 @@
 **Bước 10**: Khởi chạy máy ảo để bắt đầu tiến hành cài đặt
 
 ![image](https://user-images.githubusercontent.com/101611197/158723975-82d6d99a-fdad-493a-8145-a6371ea87391.png)
+
+** Bước 11**: Chọn Install centos 7
+
+**Bước 12:** Thiết lập ngôn ngữ
+
+![image](https://user-images.githubusercontent.com/101611197/158750731-112391c7-0005-46bd-a3b9-14cc7d9f92d4.png)
+
+**Bước 13**: Chọn Date time để thiết laạp ngày giờ
+
+![image](https://user-images.githubusercontent.com/101611197/158751008-6ad7b0c5-d697-410f-a03d-f9edfc38fdb9.png)
+
+Bước 14: Ở mục SOFTWATE SELECTION, chọn giao diện đồ hoạ (GUI) để dễ dàng thao tác:
+
+Server with GUI > KDE > Done
+
+![image](https://user-images.githubusercontent.com/101611197/158751334-02ba7770-1577-4dee-a9ce-58c9e0b34bcf.png)
+
+Bước 15: Mục INSTALLATION DESTINATION, chọn ổ đĩa ảo 20GB mình đã tạo lúc nãy > Done
+
+![image](https://user-images.githubusercontent.com/101611197/158751452-62e787bd-f973-4188-8e5f-58b9263388cb.png)
+
+bước 16: Mục NETWORK & HOST NAME, chọn ON > Done
+
+![image](https://user-images.githubusercontent.com/101611197/158751610-ac2f878a-525a-4a99-a620-c147907e8f52.png)
+
+Bước 17: Chọn Begin Installation
+
+![image](https://user-images.githubusercontent.com/101611197/158751845-1c935d3f-eea4-47b0-8597-063cbec6e61b.png)
+
+Bước 18: Thiết lập tài khoản ROOT, tài khoản này rất quan trọng nên cần phải ghi nhớ mật khẩu (Phamhaianh0802)
+
+![image](https://user-images.githubusercontent.com/101611197/158752134-1c3577b1-5f73-48ed-977e-b2707d571a93.png)
+
+Bước 19: Chờ máy tự động cài đặt, bạn chờ khoảng 3 đến 5 phút tuỳ vào cấu hình của máy tính. Click Reboot
