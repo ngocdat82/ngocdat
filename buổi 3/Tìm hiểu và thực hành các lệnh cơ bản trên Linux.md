@@ -82,7 +82,7 @@ Chúng ta có thể tạo thêm 2 thư mục con ở trong thư mục folder1 b�
 
 ![image](https://user-images.githubusercontent.com/101611197/158783149-45633cbd-27bf-4e01-b4a3-9f6e4cdc3fe4.png)
 
-12. Lệnh tail: Trái ngược với lệnh head, lệnh này được sử dụng để xem dòng cuối cùng của văn bản. Theo mặc định, nó sẽ hiển thị 10 dòng cuối cùng, nhưng chúng ta cũng có thể thay đổi được số dòng theo ý mình, tương tự như head
+**12**. Lệnh **tail**: Trái ngược với lệnh head, lệnh này được sử dụng để xem dòng cuối cùng của văn bản. Theo mặc định, nó sẽ hiển thị 10 dòng cuối cùng, nhưng chúng ta cũng có thể thay đổi được số dòng theo ý mình, tương tự như head
 
 ![image](https://user-images.githubusercontent.com/101611197/158783725-a1b3c34c-a638-486d-97da-648da2650ba9.png)
 
