@@ -25,6 +25,7 @@
 ![image](https://user-images.githubusercontent.com/101611197/158732841-4524eaf4-2629-40e3-afab-c1da43a45861.png)
 
 **Bước 7**: Nhấn Finish
+
 ![image](https://user-images.githubusercontent.com/101611197/158740238-bab5a91d-a96b-4aad-b396-a5f52473f100.png)
 
 **Bước 8**: Ở màn hình mới chọn **Edit virtual machine settings** để thêm file iso
@@ -43,9 +44,9 @@
 
 ![image](https://user-images.githubusercontent.com/101611197/158723975-82d6d99a-fdad-493a-8145-a6371ea87391.png)
 
-** Bước 11**: Chọn Install centos 7
+**Bước 11**: Chọn Install centos 7
 
-**Bước 12:** Thiết lập ngôn ngữ
+**Bước 12:** Thiết lập ngôn ngữ và bàn phím
 
 ![image](https://user-images.githubusercontent.com/101611197/158750731-112391c7-0005-46bd-a3b9-14cc7d9f92d4.png)
 
@@ -53,26 +54,50 @@
 
 ![image](https://user-images.githubusercontent.com/101611197/158751008-6ad7b0c5-d697-410f-a03d-f9edfc38fdb9.png)
 
-Bước 14: Ở mục SOFTWATE SELECTION, chọn giao diện đồ hoạ (GUI) để dễ dàng thao tác:
+**Bước 14**: Ở mục SOFTWATE SELECTION, chọn giao diện đồ hoạ (GUI) để dễ dàng thao tác:
 
 Server with GUI > KDE > Done
 
 ![image](https://user-images.githubusercontent.com/101611197/158751334-02ba7770-1577-4dee-a9ce-58c9e0b34bcf.png)
 
-Bước 15: Mục INSTALLATION DESTINATION, chọn ổ đĩa ảo 20GB mình đã tạo lúc nãy > Done
+**Bước 15**: Mục INSTALLATION DESTINATION, chọn ổ đĩa ảo 20GB mình đã tạo lúc nãy > Done
 
 ![image](https://user-images.githubusercontent.com/101611197/158751452-62e787bd-f973-4188-8e5f-58b9263388cb.png)
 
-bước 16: Mục NETWORK & HOST NAME, chọn ON > Done
+**bước 16**: Mục NETWORK & HOST NAME, chọn ON > Done
 
 ![image](https://user-images.githubusercontent.com/101611197/158751610-ac2f878a-525a-4a99-a620-c147907e8f52.png)
 
-Bước 17: Chọn Begin Installation
+**Bước 17**: Chọn Begin Installation
 
 ![image](https://user-images.githubusercontent.com/101611197/158751845-1c935d3f-eea4-47b0-8597-063cbec6e61b.png)
 
-Bước 18: Thiết lập tài khoản ROOT, tài khoản này rất quan trọng nên cần phải ghi nhớ mật khẩu (Phamhaianh0802)
+**Bước 18**: Thiết lập tài khoản ROOT, tài khoản này rất quan trọng nên cần phải ghi nhớ mật khẩu (Phamhaianh0802)
 
 ![image](https://user-images.githubusercontent.com/101611197/158752134-1c3577b1-5f73-48ed-977e-b2707d571a93.png)
 
-Bước 19: Chờ máy tự động cài đặt, bạn chờ khoảng 3 đến 5 phút tuỳ vào cấu hình của máy tính. Click Reboot
+**Bước 19**: Chờ máy tự động cài đặt, bạn chờ khoảng 3 đến 5 phút tuỳ vào cấu hình của máy tính. Click Reboot
+
+![image](https://user-images.githubusercontent.com/101611197/158754636-826490d0-4c6c-4c5c-b061-96070d558524.png)
+
+**Bước 20**: Kiểm tra lại ngôn ngữ đã chọn
+
+![image](https://user-images.githubusercontent.com/101611197/158758124-c4f5c827-1409-40d6-8591-f74e1fcd6ef2.png)
+
+**Bước 21**: Kiểm tra lại loại bàn phím
+
+![image](https://user-images.githubusercontent.com/101611197/158758327-004d7e3b-fb0b-4d60-8699-b4932c09bebf.png)
+
+**Bước 22**: Kiểm tra lại múi giờ
+
+![image](https://user-images.githubusercontent.com/101611197/158759015-fc5ba5d7-4150-41a3-9249-d788f79026f4.png)
+
+**Bước 23**: Tạo tài khoản để đăng nhập vào hệ thống
+
+![image](https://user-images.githubusercontent.com/101611197/158759600-4e9862da-216b-4f9b-af2e-8fe0ad56c545.png)
+
+![image](https://user-images.githubusercontent.com/101611197/158759485-8ea58238-aee5-4395-9d54-effac46f91a3.png)
+
+**Bước 24**: Vậy là chúng ta đã cài đặt xong.
+![image](https://user-images.githubusercontent.com/101611197/158760590-19fc2187-00cd-4718-b09b-bfb08c46beb0.png)
+
