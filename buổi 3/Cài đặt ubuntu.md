@@ -76,3 +76,8 @@ Bước 15: Hoàn thành một số thiết lập
 ![image](https://user-images.githubusercontent.com/101611197/158735918-cef90457-96d5-47e9-acc3-1e2029c1826e.png)
 
 **Đã cài đặt xong Ubuntu**
+
+![image](https://user-images.githubusercontent.com/101611197/158739450-122fedfe-74f2-41d6-b66e-2a913cf3b9e7.png)
+
+![image](https://user-images.githubusercontent.com/101611197/158739554-56a498a2-c8aa-489c-9e9a-f8108e4dd489.png)
+
