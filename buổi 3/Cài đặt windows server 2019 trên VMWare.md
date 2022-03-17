@@ -34,8 +34,6 @@ Bước 6: Khai báo thông số dung lượng ổ đĩa trên máy ảo khi t�
 
 **Bước 9**: Lựa chọn CD/DVD (SATA), phần Use ISO image file và lựa chọn nơi lưu trữ ISO Windows Server 2019, sau đó ấn OK để hoàn tất.
 
-Lựa chọn CD/DVD (SATA), phần Use ISO image file và lựa chọn nơi lưu trữ ISO Windows Server 2019, sau đó ấn OK để hoàn tất.
-
 ![image](https://user-images.githubusercontent.com/101611197/158723714-349a7cc9-cc55-4c2a-9cef-c039d09292cd.png)
 
 **Chúng ta có thể điều chỉnh lại cấu hình của máy ảo tại đây**
