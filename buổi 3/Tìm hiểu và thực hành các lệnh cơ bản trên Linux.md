@@ -92,4 +92,9 @@ Chúng ta có thể tạo thêm 2 thư mục con ở trong thư mục folder1 b�
 
 Ở đây mình đã thêm 2 đoạn bất kỳ vào 1 trong 2 file. Và đây là kết quả sau khi sử dụng lệnh **diff**
 
+**14**. Lệnh **ping** Lệnh này được sử dụng để kiểm tra trạng thái kết nối của mình với server
 
+![image](https://user-images.githubusercontent.com/101611197/158789343-e9b0150d-1ced-4d96-8ab1-9a3a0d160089.png)
+
+
+Ví dụ: Nhập ping google.com chúng ta sẽ kiểm tra được chúng ta có kết nối được với google hay không và đo được thời gian phản hồi 
