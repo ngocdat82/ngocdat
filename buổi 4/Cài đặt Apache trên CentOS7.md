@@ -172,6 +172,23 @@ Reload lại Apache để cập nhật cấu hình
 
 Sau khi cấu hình hoàn tất các bạn trỏ tên miền về vps sau đó tạo file /home/ngocdat.net/public_html/index.html
 
-**nano /home/hostvn.net/public_html/index.html**
+**nano /home/ngocdat.net/public_html/index.html**
+
+Dán nội dung sau vào
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>hh</title>
+</head>
+<body>
+	<p><center><?= "Hello moi nguoi" ?></center></p>
+</body>
+</html>
 
 
+Truy cập tên miền của bạn bằng trình duyệt để kiểm tra
+
+
+![image](https://user-images.githubusercontent.com/101611197/159105622-319de4c5-7afe-432e-b8f4-304199b0c900.png)
