@@ -84,7 +84,15 @@ Mở trình duyệt truy cập đường dẫn: **Localhost:8080**
 
 ![image](https://user-images.githubusercontent.com/101611197/159615246-aa4328c4-6cea-4216-8ce8-8129c6576647.png)
 
+![image](https://user-images.githubusercontent.com/101611197/159615543-50b63c2b-5e6e-4c30-bd83-082a7df20cc7.png)
 
+### 3.8 Tạo 1 chương trình và kiểm tra
+
+![image](https://user-images.githubusercontent.com/101611197/159615796-1cdc4b0f-835e-4a97-883d-c2da3ac9e7f0.png)
+
+![image](https://user-images.githubusercontent.com/101611197/159616002-6f0fadbf-2239-4c01-b629-30231ad71f62.png)
+
+Lưu lại và vào trình duyệt chạy đường dẫn localhost:8080/test.jsp để kiểm tra
 
 
 
