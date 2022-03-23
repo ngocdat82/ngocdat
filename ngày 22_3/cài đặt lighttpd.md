@@ -4,46 +4,86 @@ Lighttpd là một giải pháp thay thế rất phổ biến cho các máy ch�
 
 **sudo apt install lighttpd**
 
-![image](https://user-images.githubusercontent.com/101611197/159440872-625d0bb0-6df6-43f6-b2a4-d90cf597b0d2.png)
+![image](https://user-images.githubusercontent.com/101611197/159652674-a894844a-301c-4e2e-8980-1b0f9aa3a0f3.png)
 
-Bật dịch vụ Lighttpd 
+## Khởi động dịch vụ lighttpd
 
 **sudo systemctl start lighttpd**
 
-Xem trạng thái của dịch vụ
+## kiểm tra trạng thái dịch vụ lighttpd
 
-**sudo systemctl stop lighttpd**
+**sudo systemctl status lighttpd**
 
- mở trình duyệt web và truy cập http://localhost để kiểm tra
- 
- ![image](https://user-images.githubusercontent.com/101611197/159441417-2b235515-dbc6-49ee-a0e2-393ddbc4ecb9.png)
+![image](https://user-images.githubusercontent.com/101611197/159653042-a27c8ace-e2aa-42ea-9050-8f289f481105.png)
 
-Thêm hỗ trợ PHP vào Lighttpd
+## Vào trình duyệt, truy cập vào địa chỉ ip để kiểm tra 
 
-chúng ta sẽ cần cài đặt PHP để các trang web động có thể được thông dịch
+![image](https://user-images.githubusercontent.com/101611197/159653259-ea61e862-7119-4caf-b149-bf78bf086e28.png)
+
+# Thêm hỗ trợ PHP vào Lighttpd
+
+## Cài đặt php 7.4
 
 **sudo apt install php7.4 php7.4-fpm php7.4-mysql php7.4-cli php7.4-curl php7.4-xml**
 
-![image](https://user-images.githubusercontent.com/101611197/159442320-43981751-7ece-4f72-bcf5-39a08ddca406.png)
+![image](https://user-images.githubusercontent.com/101611197/159653414-4a40b32c-8fb3-4736-b8ad-f6a38179f7af.png)
 
-
-Khi quá trình cài đặt PHP hoàn tất, cần thực hiện một số thay đổi nhỏ để Lighttpd có thể hoạt động với PHP và thông dịch các trang web. Điều đầu tiên sẽ là mở một trong những tệp cấu hình với trình soạn thảo
+## Mở rộng một trong những tệp cấu hình
 
 **sudo nano /etc/php/7.4/fpm/pool.d/www.conf**
 
-Y bên trong tệp thay đổi giá trị của 'Listen' a: **listen = 127.0.0.1:9000**
+**Thay đổi giá trị listen thành 127.0.0.1:9000**
 
-![image](https://user-images.githubusercontent.com/101611197/159443177-972a169d-d889-4917-87c6-66a758d6032e.png)
-
-Thực hiện thay đổi với những tệp cấu hình khác:
+## thực hiện nhiều thay đổi hơn đối với tệp cấu hình khác
 
 **sudo nano /etc/lighttpd/conf-available/15-fastcgi-php.conf**
 
-Và bên trong chúng ta sẽ thay đổi những dòng sau:
+Thay đổi 2 dòng:
 
 **"bin-path" => "/usr/bin/php-cgi",**
 
 **"socket" => "/var/run/lighttpd/php.socket",**
 
+Thành:
 
+**"host" => "127.0.0.1",**
 
+**"port" => "9000",**
+
+![image](https://user-images.githubusercontent.com/101611197/159654235-ba4d1e74-8b9a-4957-94f0-07d26b5a98af.png)
+
+## kích hoạt các mô-đun giúp Lighttpd hoạt động với PHP:
+
+sudo lighty-enable-mod fastcgi
+ 
+sudo lighty-enable-mod fastcgi-php
+
+![image](https://user-images.githubusercontent.com/101611197/159654419-85ca6e2d-2525-4334-826b-4a08f1f2ce16.png)
+
+## khởi động lại các dịch vụ Lighttpd và php-fpm:
+
+# Kiểm tra xem PHP đã được kích hoạt chưa
+
+## chúng ta sẽ viết một tệp PHP trong thư mục gốc của Lighttpd, và sau đó mở nó bằng trình duyệt.
+
+**sudo nano /var/www/html/test.php**
+
+Bên trong tệp dán đoạn lệnh sau:
+
+ <?php phpinfo();?>
+
+![image](https://user-images.githubusercontent.com/101611197/159654969-83508eba-2760-45dc-933f-f1d4cab4a9de.png)
+
+## thay đổi quyền của thư mục và đặt Lighttpd làm chủ sở hữu của nó
+
+**sudo chown -R www-data:www-data /var/www/html/**
+ 
+**sudo chown -R 755 /var/www/html/**
+
+![image](https://user-images.githubusercontent.com/101611197/159655199-ddff0a85-02fe-43d6-9f0e-3dccdf9a1bfd.png)
+
+Bây giờ chúng ta mở trình duyệt và truy cập vào đường dẫn để kiểm tra
+
+192.168.154.137/test.php
+
+![image](https://user-images.githubusercontent.com/101611197/159655392-8515aecc-c6c3-4a7f-9630-d71b84ca68fe.png)
